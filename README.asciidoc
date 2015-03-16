@@ -1,2 +1,20 @@
 # Python-Testing-Tools-Report
 a report on the current state of testing tools in Python
+
+# Outline
+
+1. Introduction
+2. Testing libraries:  unittest vs pytest vs nose
+3. Selenium for web app testing
+4. More end-to-end testing tools:  requests, imapclient, subprocess
+5. BDD with lettuce and behave
+6. Continuous Integration with buildbot (?)
+7. Devops and testing -- fabric, ansible, docker
+8. Wrap-up:  what makes an effective test?
+
+# Summary
+
+A few short years ago, testing in the Python world was seen as something of a luxury.  Nowadays it's more of a must-have.  This report will take a look at some useful testing tools and techniques in the Python ecosystem.  We'll take a look at the standard library's unittest, and compare it with other test frameworks like nose and the impressive py.test.
+
+But testing should be much more than just unit testing.  We'll look beyond, showing examples of using Selenium for web app tests, and BDD tools like lettuce and behave.  We'll discuss ways of writing end-to-end tests for REST apis, command-line tools, or containerised docker services, and conclude with a discussion of how to figure out which tests are most valuable in different situations.
+
